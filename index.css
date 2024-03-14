@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(36, 76, 207);
+    color: white;
+}
+
+.container {
+    max-width: 768px;
+    margin-inline: auto;
+    margin-top: 5rem;
+}
+
+.tombola {
+    background-color: #36abaf;
+    color: #e8e7f4;
+    border-radius: 10px;
+    border: 8px solid #60a8ec;
+}
+
+.number {
+    width: 14%;
+    display: inline-block;
+    margin-right: -2px;
+    min-height: 105px;
+    text-align: center;
+    padding-block: 2.5rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+h1,
+h3 {
+
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 26px;
+
+}
+
+#generate-button {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    background-color: #60a8ec;
+}
